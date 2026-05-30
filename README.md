@@ -10,6 +10,24 @@ El sistema permite analizar históricos de ventas, calcular inventarios de segur
 
 El proyecto está diseñado como MVP académico y demostrativo, listo para despliegue en Render Free.
 
+## Estado del Proyecto
+
+MVP funcional desarrollado en Python y Streamlit con despliegue compatible en:
+
+- Streamlit Community Cloud.
+- Render Free.
+
+Estado actual:
+
+- Gestión de inventarios implementada.
+- Analítica ABC implementada.
+- Pronóstico estadístico implementado.
+- Machine Learning supervisado implementado.
+- Machine Learning no supervisado implementado.
+- Pruebas locales completadas.
+- Proyecto preparado para despliegue en la nube.
+
+
 ## Funcionalidades
 
 - Gestión inicial de inventario con datos semilla.
@@ -126,6 +144,59 @@ Consultar:
 DEPLOY_RENDER.md
 ```
 
+### Opción adicional — Streamlit Community Cloud
+
+Además de Render Free, StockPredict MVP puede desplegarse en Streamlit Community Cloud, opción recomendada para demostraciones académicas y portafolio profesional porque la aplicación fue desarrollada directamente con Streamlit.
+
+#### Configuración
+
+```text
+Repository:
+antoniot73/stockpredict_mvp_ml
+
+Branch:
+main
+
+Main file path:
+app/main.py
+
+App URL sugerida:
+stockpredict-mvp-ml
+```
+
+#### Advanced Settings
+
+Seleccionar:
+
+```text
+Python 3.11
+```
+
+No se requieren secrets ni variables de entorno para esta versión MVP.
+
+#### Pasos de despliegue
+
+1. Entrar a Streamlit Community Cloud.
+2. Iniciar sesión con GitHub.
+3. Seleccionar `Deploy an app`.
+4. Elegir el repositorio `antoniot73/stockpredict_mvp_ml`.
+5. Configurar `main` como rama.
+6. Configurar `app/main.py` como archivo principal.
+7. Seleccionar Python 3.11 en Advanced Settings.
+8. Ejecutar el despliegue.
+
+#### Validación posterior
+
+Después del despliegue, validar:
+
+- Dashboard principal.
+- KPIs.
+- Clasificación ABC.
+- Pronóstico estadístico.
+- Pestaña de Machine Learning.
+- Descarga de archivos CSV.
+
+
 ## Licencia
 
 Proyecto académico y demostrativo. Definir licencia antes de uso público o comercial.
@@ -148,3 +219,5 @@ REPORTE_ENTREGA_FINAL.md
 ```
 
 La Etapa 9 corresponde al despliegue final en Render Free y validación pública del MVP.
+
+También se contempla despliegue alternativo en Streamlit Community Cloud para facilitar demostraciones académicas y publicación rápida del MVP.
