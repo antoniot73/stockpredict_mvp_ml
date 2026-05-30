@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: stockpredict-mvp
+    name: stockpredict-mvp-ml
     env: python
     plan: free
     buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
