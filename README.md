@@ -164,6 +164,12 @@ App URL sugerida:
 stockpredict-mvp-ml
 ```
 
+#### URL pública
+
+```text
+https://stockpredict-mvp-ml.streamlit.app/
+```
+
 #### Advanced Settings
 
 Seleccionar:
